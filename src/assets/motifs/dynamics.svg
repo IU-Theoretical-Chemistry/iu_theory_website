@@ -1,25 +1,27 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-hidden="true">
-  <!-- Decorative only: a double well with a delocalised packet spanning the barrier. -->
-  <defs>
-    <linearGradient id="dy-a" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="currentColor" stop-opacity="0.28" />
-      <stop offset="100%" stop-color="currentColor" stop-opacity="0" />
-    </linearGradient>
-  </defs>
+  <!-- Decorative only: a wavepacket oscillating and losing amplitude in time. -->
   <path
-    d="M28 52 C64 52 60 132 100 132 C138 132 140 84 160 84 C180 84 182 132 220 132 C260 132 256 52 292 52"
-    fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.4"
+    d="M40 100
+       C48 36, 56 36, 64 100
+       C72 156, 80 156, 88 100
+       C96 53, 104 53, 112 100
+       C120 137, 128 137, 136 100
+       C144 71, 152 71, 160 100
+       C168 123, 176 123, 184 100
+       C192 83, 200 83, 208 100
+       C216 113, 224 113, 232 100
+       C240 91, 248 91, 256 100
+       C264 107, 272 107, 280 100"
+    fill="none" stroke="currentColor" stroke-opacity="0.85" stroke-width="1.6"
   />
-  <path
-    d="M60 120 C84 88 116 88 140 120 C150 134 170 134 180 120 C204 88 236 88 260 120 L260 132 L60 132 Z"
-    fill="url(#dy-a)"
-  />
-  <g stroke="currentColor" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 5">
-    <path d="M40 108 H280" />
-    <path d="M40 124 H280" />
-  </g>
+  <path d="M40 52 C110 60, 190 86, 282 94" fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 5" />
+  <path d="M40 148 C110 140, 190 114, 282 106" fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1" stroke-dasharray="3 5" />
+  <path d="M32 100 H288" stroke="currentColor" stroke-opacity="0.4" stroke-width="1" />
+  <path d="M280 95 L290 100 L280 105" fill="none" stroke="currentColor" stroke-opacity="0.4" stroke-width="1" />
   <g fill="currentColor">
-    <circle cx="100" cy="132" r="3.5" />
-    <circle cx="220" cy="132" r="3.5" />
+    <circle cx="52" cy="52" r="3.5" />
+    <circle cx="100" cy="65" r="3" fill-opacity="0.7" />
+    <circle cx="148" cy="78" r="2.5" fill-opacity="0.5" />
+    <circle cx="196" cy="87" r="2" fill-opacity="0.35" />
   </g>
 </svg>

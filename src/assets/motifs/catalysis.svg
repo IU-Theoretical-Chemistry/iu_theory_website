@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-hidden="true">
+  <!-- Decorative only: a reaction profile lowered by a catalyst above a surface. -->
+  <path
+    d="M32 120 C72 120 84 56 128 56 C172 56 176 128 216 128 C252 128 260 96 288 96"
+    fill="none" stroke="currentColor" stroke-opacity="0.3" stroke-width="1.4" stroke-dasharray="4 5"
+  />
+  <path
+    d="M32 120 C76 120 92 84 128 84 C168 84 180 128 216 128 C252 128 260 96 288 96"
+    fill="none" stroke="currentColor" stroke-opacity="0.65" stroke-width="1.6"
+  />
+  <g fill="currentColor">
+    <circle cx="32" cy="120" r="3.5" />
+    <circle cx="128" cy="84" r="3.5" />
+    <circle cx="288" cy="96" r="3.5" />
+  </g>
+  <g stroke="currentColor" stroke-opacity="0.5" stroke-width="1.2">
+    <path d="M40 168 H280" />
+  </g>
+  <g fill="currentColor" fill-opacity="0.7">
+    <circle cx="56" cy="168" r="3" /><circle cx="88" cy="168" r="3" /><circle cx="120" cy="168" r="3" />
+    <circle cx="152" cy="168" r="3" /><circle cx="184" cy="168" r="3" /><circle cx="216" cy="168" r="3" />
+    <circle cx="248" cy="168" r="3" />
+    <circle cx="72" cy="156" r="3" /><circle cx="104" cy="156" r="3" /><circle cx="136" cy="156" r="3" />
+    <circle cx="168" cy="156" r="3" /><circle cx="200" cy="156" r="3" /><circle cx="232" cy="156" r="3" />
+  </g>
+</svg>

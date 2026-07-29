@@ -7,9 +7,11 @@ summary: >-
 faculty:
   - raghavachari
   - georgescu
-order: 5
+  - iyengar
+order: 9
 ---
 
-Applications include machine learning within quantum chemistry, computer-aided design of
-fluorescent materials and receptors, and high-throughput screening for new quantum
-materials.
+Applications include machine learning within quantum chemistry, fragment-based models
+for NMR shifts and molecular properties, neural-network architectures for
+high-dimensional potential energy surfaces, computer-aided design of fluorescent
+materials and receptors, and physics-informed screening for new quantum materials.

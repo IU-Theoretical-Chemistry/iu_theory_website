@@ -9,6 +9,7 @@ faculty:
   - raghavachari
   - mayhall
   - iyengar
+  - georgescu
 order: 1
 ---
 

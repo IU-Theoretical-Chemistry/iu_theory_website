@@ -8,7 +8,7 @@ researchAreas:
   - Metal–insulator transitions
   - Electronic structure of materials
   - Machine learning for materials discovery
-personalSite: https://georgescu.lab.iu.edu/
+personalSite: https://alexbgeorgescu.com/
 googleScholar: https://scholar.google.com/citations?user=s4o2noYAAAAJ
 education:
   - PhD, Physics, Yale University, 2017

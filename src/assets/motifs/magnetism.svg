@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-hidden="true">
+  <!-- Decorative only: a lattice of spins, ordered on one side and canting on the other. -->
+  <defs>
+    <g id="mg-spin">
+      <path d="M0 12 V-12" stroke="currentColor" stroke-width="1.6" />
+      <path d="M-5 -5 L0 -13 L5 -5" fill="none" stroke="currentColor" stroke-width="1.6" />
+    </g>
+  </defs>
+  <g stroke="currentColor" stroke-opacity="0.15" stroke-width="1">
+    <path d="M48 56 H272 M48 100 H272 M48 144 H272" />
+  </g>
+  <g opacity="0.85">
+    <use href="#mg-spin" x="0" y="0" transform="translate(64 56)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(112 56) rotate(180)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(64 100)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(112 100) rotate(180)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(64 144)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(112 144) rotate(180)" />
+  </g>
+  <g opacity="0.45">
+    <use href="#mg-spin" x="0" y="0" transform="translate(168 56) rotate(24)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(216 56) rotate(-38)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(264 56) rotate(150)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(168 100) rotate(-15)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(216 100) rotate(65)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(264 100) rotate(-120)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(168 144) rotate(40)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(216 144) rotate(-70)" />
+    <use href="#mg-spin" x="0" y="0" transform="translate(264 144) rotate(12)" />
+  </g>
+  <path d="M140 32 V168" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.3" stroke-dasharray="4 5" />
+</svg>

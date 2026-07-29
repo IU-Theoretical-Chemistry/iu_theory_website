@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-hidden="true">
+  <!-- Decorative only: a macrocyclic host binding a guest through noncovalent contacts. -->
+  <g stroke="currentColor" stroke-opacity="0.55" stroke-width="1.4" fill="none">
+    <path d="M160 34 L214 54 L236 104 L214 154 L160 174 L106 154 L84 104 L106 54 Z" />
+  </g>
+  <g fill="currentColor" fill-opacity="0.8">
+    <circle cx="160" cy="34" r="4" /><circle cx="214" cy="54" r="4" /><circle cx="236" cy="104" r="4" />
+    <circle cx="214" cy="154" r="4" /><circle cx="160" cy="174" r="4" /><circle cx="106" cy="154" r="4" />
+    <circle cx="84" cy="104" r="4" /><circle cx="106" cy="54" r="4" />
+  </g>
+  <g stroke="currentColor" stroke-opacity="0.35" stroke-width="1" stroke-dasharray="2 4">
+    <path d="M160 46 L160 88 M204 62 L172 94 M224 104 L176 104 M204 146 L172 114 M160 162 L160 120 M116 146 L148 114 M96 104 L144 104 M116 62 L148 94" />
+  </g>
+  <circle cx="160" cy="104" r="12" fill="currentColor" fill-opacity="0.6" />
+  <g stroke="currentColor" stroke-opacity="0.25" stroke-width="1.2" fill="none">
+    <path d="M258 60 C276 66 284 84 278 100 M42 148 C36 130 46 112 62 108" />
+  </g>
+</svg>

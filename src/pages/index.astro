@@ -43,24 +43,6 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 
 
   <section class="section first">
     <div class="section-head">
-      <h2>Research</h2>
-      <a href={url('/research')}>All research →</a>
-    </div>
-    {/* Titles only — the summaries live on /research, so repeating them here just
-        duplicated that page. Each links to its section there. */}
-    <ul class="topics">
-      {
-        thrusts.map((thrust) => (
-          <li>
-            <a href={url(`/research#${thrust.id}`)}>{thrust.data.title}</a>
-          </li>
-        ))
-      }
-    </ul>
-  </section>
-
-  <section class="section">
-    <div class="section-head">
       <h2>Groups</h2>
       <a href={url('/people')}>All people →</a>
     </div>
@@ -81,6 +63,24 @@ const dateFmt = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 
                 Group site ↗
               </a>
             )}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <h2>Research</h2>
+      <a href={url('/research')}>All research →</a>
+    </div>
+    {/* Titles only — the summaries live on /research, so repeating them here just
+        duplicated that page. Each links to its section there. */}
+    <ul class="topics">
+      {
+        thrusts.map((thrust) => (
+          <li>
+            <a href={url(`/research#${thrust.id}`)}>{thrust.data.title}</a>
           </li>
         ))
       }

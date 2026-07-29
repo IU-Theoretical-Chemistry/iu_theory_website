@@ -10,7 +10,7 @@ faculty:
   - shushkov
   - iyengar
   - georgescu
-order: 2
+order: 3
 ---
 
 A program-wide strength, joining algorithm development for quantum simulation with the

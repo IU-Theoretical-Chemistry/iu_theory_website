@@ -1,7 +1,6 @@
 import { defineCollection, reference } from 'astro:content';
-import { glob, file } from 'astro/loaders';
+import { glob } from 'astro/loaders';
 import { z } from 'astro/zod';
-import * as bibtex from '@retorquere/bibtex-parser';
 
 const faculty = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/faculty' }),
@@ -70,51 +69,4 @@ const news = defineCollection({
   }),
 });
 
-// Publications come straight from a BibTeX file, so keeping the list current means
-// dropping in a fresh export from Zotero / Google Scholar / EndNote and committing it.
-// No hand-editing of markdown, no schema to learn.
-const publications = defineCollection({
-  loader: file('src/data/publications.bib', {
-    parser: (text) => {
-      const parsed = bibtex.parse(text);
-      return parsed.entries.map((entry) => {
-        const f = entry.fields;
-        const first = (v: unknown) => (Array.isArray(v) ? v[0] : v);
-        return {
-          // The BibTeX citation key is a natural stable id.
-          id: entry.key,
-          type: entry.type,
-          title: String(first(f.title) ?? '').replace(/[{}]/g, ''),
-          // This parser exposes authors on `fields.author` as {firstName, lastName}
-          // objects (there is no `creators` property). Institutional authors appear
-          // as a bare `name` instead, so fall back to that.
-          authors: (f.author ?? []).map((a) =>
-            typeof a === 'string'
-              ? a
-              : [a.firstName, a.lastName].filter(Boolean).join(' ').trim() ||
-                String(a.name ?? ''),
-          ),
-          journal: String(first(f.journal) ?? first(f.booktitle) ?? '').replace(/[{}]/g, ''),
-          year: Number(String(first(f.year) ?? '').match(/\d{4}/)?.[0]) || undefined,
-          volume: first(f.volume) ? String(first(f.volume)) : undefined,
-          pages: first(f.pages) ? String(first(f.pages)).replace(/--/g, '–') : undefined,
-          doi: first(f.doi) ? String(first(f.doi)) : undefined,
-          url: first(f.url) ? String(first(f.url)) : undefined,
-        };
-      });
-    },
-  }),
-  schema: z.object({
-    type: z.string().optional(),
-    title: z.string(),
-    authors: z.array(z.string()).default([]),
-    journal: z.string().optional(),
-    year: z.number().optional(),
-    volume: z.string().optional(),
-    pages: z.string().optional(),
-    doi: z.string().optional(),
-    url: z.string().optional(),
-  }),
-});
-
-export const collections = { faculty, research, news, publications };
+export const collections = { faculty, research, news };

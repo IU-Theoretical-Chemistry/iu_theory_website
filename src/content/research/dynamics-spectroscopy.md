@@ -7,7 +7,7 @@ summary: >-
 faculty:
   - iyengar
   - shushkov
-order: 4
+order: 6
 ---
 
 Includes quantum wavepacket ab initio molecular dynamics (QWAIMD) for hydrogen transfer in

@@ -10,6 +10,7 @@ import 'katex/dist/katex.min.css';
 import lockupLight from '../assets/brand/lockup-light.svg?url';
 import lockupDark from '../assets/brand/lockup-dark.svg?url';
 import { url } from '../lib/url';
+import { getCollection } from 'astro:content';
 
 interface Props {
   title: string;
@@ -18,12 +19,23 @@ interface Props {
 
 const { title, description = 'Theoretical and computational chemistry research at Indiana University.' } = Astro.props;
 
-// No "Home" item: the brand lockup links home on every page, so a Home link would just
-// duplicate it.
+// The Research item carries a submenu of the research thrusts (desktop dropdown;
+// hidden on phones, where /research itself is one tap away and lists everything).
+const researchAreas = (await getCollection('research')).sort(
+  (a, b) => a.data.order - b.data.order,
+);
+
 const nav = [
+  { href: '/', label: 'Home' },
   { href: '/people', label: 'People' },
-  { href: '/research', label: 'Research' },
-  { href: '/publications', label: 'Publications' },
+  {
+    href: '/research',
+    label: 'Research',
+    children: researchAreas.map((r) => ({
+      href: `/research#${r.id}`,
+      label: r.data.title,
+    })),
+  },
   { href: '/history', label: 'History' },
   { href: '/join', label: 'Join Us' },
 ];
@@ -106,13 +118,23 @@ const isHome = current === '/';
           <ul>
             {
               nav.map((item) => (
-                <li>
+                <li class:list={[{ 'has-sub': !!item.children }]}>
                   <a
                     href={url(item.href)}
                     aria-current={current === item.href.replace(/\/$/, '') || (item.href === '/' && current === '/') ? 'page' : undefined}
                   >
                     {item.label}
+                    {item.children && <span class="caret" aria-hidden="true">▾</span>}
                   </a>
+                  {item.children && (
+                    <ul class="submenu">
+                      {item.children.map((child) => (
+                        <li>
+                          <a href={url(child.href)}>{child.label}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </li>
               ))
             }

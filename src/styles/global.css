@@ -311,6 +311,67 @@ nav a[aria-current="page"] {
   border-bottom-color: var(--crimson);
 }
 
+/* ---- research dropdown ---- */
+nav .caret {
+  font-size: 0.7em;
+  color: var(--muted);
+  margin-left: 0.25em;
+}
+
+/* Hidden by default everywhere; the desktop rules below reveal it on hover/focus.
+   On phones it stays hidden — /research lists every thrust one tap away. */
+nav .submenu {
+  display: none;
+}
+
+@media (min-width: 48rem) {
+  nav li.has-sub {
+    position: relative;
+  }
+
+  /* The trigger link's ::after hit-area overlay extends 0.7rem below the text, which
+     bridges the visual gap down to the panel, so hover never drops out in between. */
+  nav .submenu {
+    position: absolute;
+    top: calc(100% + 0.65rem);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    min-width: 22rem;
+    margin: 0;
+    padding: 0.4rem 0;
+    list-style: none;
+    background: var(--paper);
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    box-shadow: 0 10px 28px rgb(0 0 0 / 0.12);
+  }
+
+  nav li.has-sub:hover .submenu,
+  nav li.has-sub:focus-within .submenu {
+    display: block;
+  }
+
+  nav .submenu a {
+    display: block;
+    padding: 0.5rem 1.1rem;
+    border-bottom: 0;
+    font-size: 0.875rem;
+    white-space: nowrap;
+  }
+
+  /* The generic nav-link overlay that widens hit areas would overlap neighbouring
+     rows inside the panel, so switch it off here — the rows are full-width already. */
+  nav .submenu a::after {
+    display: none;
+  }
+
+  nav .submenu a:hover {
+    color: var(--crimson);
+    background: var(--wash);
+  }
+}
+
 /* ---- collapsed nav (phones/tablets) ---- */
 @media (max-width: 47.99rem) {
   .site-header .wrap {
