@@ -58,6 +58,12 @@ alongside [cluster mean-field approaches](https://doi.org/10.1021/acs.jpca.4c039
 [quantum embedding](https://doi.org/10.1021/acs.jctc.8b01112) schemes for
 [truncating virtual spaces](https://doi.org/10.1021/acs.jctc.9b00682).
 
+Most recently, the group has turned quantum information tools back on classical
+simulation itself, using Pauli propagation for
+[fast classical simulation of strongly correlated systems](https://arxiv.org/abs/2511.21651)
+and for the
+[efficient computation of real-time correlators](https://arxiv.org/abs/2607.24924).
+
 Earlier work developed
 [spin-flip and Fock-space CI methods](https://doi.org/10.1021/acs.jctc.8b01268) for
 diradicals and molecular magnets, and — during his PhD at IU with Krishnan Raghavachari —
