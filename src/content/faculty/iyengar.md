@@ -29,13 +29,15 @@ that avoid it.
 
 ## Quantum dynamics of electrons and nuclei
 
-The group's signature contribution is **Quantum Wavepacket Ab Initio Molecular Dynamics
-(QWAIMD)**, which propagates a quantum wavepacket for selected nuclei while computing the
+The group's signature contribution is
+[**Quantum Wavepacket Ab Initio Molecular Dynamics (QWAIMD)**](https://doi.org/10.1063/1.1871876),
+which propagates a quantum wavepacket for selected nuclei while computing the
 electronic structure on the fly, treating both subsystems dynamically at once. The
 approach has since been extended to multireference electronic structure and, through
-**Multi-Stage Ab Initio Wavepacket Dynamics**, to open electronic systems. Iyengar also
-contributed the Atom-centered Density Matrix Propagation (ADMP) and Born–Oppenheimer
-molecular dynamics modules to the Gaussian program.
+[**Multi-Stage Ab Initio Wavepacket Dynamics**](https://doi.org/10.1063/1.3463798), to
+open electronic systems. Iyengar also contributed the
+[Atom-centered Density Matrix Propagation (ADMP)](https://doi.org/10.1063/1.1416876)
+and Born–Oppenheimer molecular dynamics modules to the Gaussian program.
 
 Applications run from hydrogen transfer in enzymes such as lipoxygenase, through
 hydrogen-bonded clusters in atmospheric and nanoscale systems and Grotthuss proton
@@ -44,11 +46,14 @@ spectroscopy that probes them.
 
 ## Tensor networks and quantum hardware
 
-Recent work has developed **graph-theoretic molecular fragmentation** for potential energy
-surfaces, which leads naturally to a tensor network representation and delivers
-post-Hartree–Fock accuracy at roughly DFT cost. That same tensor structure suggests how to
-distribute chemical dynamics problems across quantum hardware, and the group has mapped
-quantum nuclear dynamics onto trapped-ion quantum computers and spin-lattice simulators.
+Recent work has developed
+[**graph-theoretic molecular fragmentation**](https://doi.org/10.1021/acs.jctc.2c00484)
+for potential energy surfaces, which leads naturally to a tensor network representation
+and delivers post-Hartree–Fock accuracy at roughly DFT cost. That same tensor structure
+suggests how to distribute chemical dynamics problems across quantum hardware, and the
+group has mapped quantum nuclear dynamics onto
+[trapped-ion quantum computers](https://doi.org/10.1021/jacs.4c07670) and
+[spin-lattice simulators](https://doi.org/10.1021/acs.jctc.1c00688).
 
 In 2024 this line of work received an **NSF Special Creativity Award**, a rarely granted
 extension reserved for adventurous, high-risk research — the only theoretical chemistry

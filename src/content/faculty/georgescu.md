@@ -34,25 +34,31 @@ theory to explain when that happens and, increasingly, to predict where to look 
 The group works across the full range of computational approaches — from minimal models
 through density functional theory and dynamical mean field theory to machine learning —
 usually in close collaboration with experimental groups. Method development includes the
-**Boson Subsidiary Solver** and generalized slave-particle methods for treating strong
-electronic interactions in extended Hubbard models.
+[**Boson Subsidiary Solver**](https://doi.org/10.1016/j.cpc.2021.107991) and
+[generalized slave-particle methods](https://doi.org/10.1103/PhysRevB.92.235117) for
+treating strong electronic interactions in extended Hubbard models.
 
-A recurring theme is the coupling between electronic and crystal structure. Work on
-Jahn–Teller-like transitions established methodology for understanding what actually
-drives the insulating state, and a study in *Nature Materials* characterized the length
-scales over which metallic and insulating phases couple across interfaces in oxides. This
+A recurring theme is the coupling between electronic and crystal structure.
+[Work on Jahn–Teller-like transitions](https://doi.org/10.1073/pnas.1818728116)
+established methodology for understanding what actually drives the insulating state, and
+a [study in *Nature Materials*](https://doi.org/10.1038/s41563-020-0757-x) characterized
+the length scales over which metallic and insulating phases couple across interfaces in
+oxides. This
 line of work was recognized with the **Oxide Electronics Prize for Excellence in Research**
 in 2026.
 
 ## Discovery at scale
 
 Rather than studying known materials one at a time, the group also builds the
-infrastructure to search systematically: the first database and set of online tools for
-discovering metal–insulator transition compounds, and machine-learning approaches to
-identifying new quantum materials. Earlier work predicted a surface piezoelectric effect
-in sapphire that is now applied in laser and quantum technology.
+infrastructure to search systematically: the
+[first database and set of online tools](https://doi.org/10.1021/acs.chemmater.1c00905)
+for discovering metal–insulator transition compounds, and machine-learning approaches to
+identifying new quantum materials. Earlier work predicted a
+[surface piezoelectric effect in sapphire](https://doi.org/10.1103/PhysRevApplied.11.064065)
+that is now applied in laser and quantum technology.
 
-Current directions include nonrelativistic spin splitting in compensated magnets,
+Current directions include
+[nonrelativistic spin splitting in compensated magnets](https://doi.org/10.1103/PhysRevLett.133.216701),
 two-dimensional transition metal halides, and — supported by a **DOE Early Career Research
 Program award** — correlated electron materials built from novel quantum building blocks.
 

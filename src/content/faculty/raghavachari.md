@@ -41,7 +41,8 @@ order: 4
 ---
 
 Few chemists can point to a method that an entire field treats as its reference standard.
-Krishnan Raghavachari is the principal author of **CCSD(T)** — coupled cluster with single,
+Krishnan Raghavachari is the principal author of
+[**CCSD(T)**](https://doi.org/10.1016/S0009-2614(89)87395-6) — coupled cluster with single,
 double, and perturbative triple excitations — introduced in 1989 and known ever since as
 the "gold standard of quantum chemistry." When a computational result needs to be trusted,
 CCSD(T) is usually what it is checked against.
@@ -49,19 +50,21 @@ CCSD(T) is usually what it is checked against.
 ## Method development
 
 Alongside CCSD(T), his work at Bell Laboratories and IU produced two other pillars of
-routine practice: the **Gaussian-n composite methods** (G2, G3, G4), which combine a
-sequence of calculations to reach chemical accuracy for heats of formation, and the widely
-used **6-311G** family of basis sets. He has authored more than 430 publications with over
+routine practice: the
+[**Gaussian-n composite methods**](https://doi.org/10.1063/1.460205) (G2, G3, G4), which
+combine a sequence of calculations to reach chemical accuracy for heats of formation, and
+the widely used [**6-311G**](https://doi.org/10.1063/1.438955) family of basis sets. He has authored more than 430 publications with over
 75,000 citations.
 
 ## Current work
 
 The group's recent focus is making accurate quantum chemistry affordable for large
-systems through fragmentation. The **Molecules-in-Molecules (MIM)** method, and its
+systems through fragmentation. The
+[**Molecules-in-Molecules (MIM)**](https://doi.org/10.1021/ct200033b) method, and its
 electrostatically embedded variant, decompose a large molecule into overlapping fragments
-whose results are extrapolated back to the whole. A recent extension, MIM-ML, trains
-machine-learning models on fragment-based DFT to predict NMR chemical shifts in nucleic
-acids.
+whose results are extrapolated back to the whole. A recent extension,
+[MIM-ML](https://doi.org/10.1021/acs.jctc.3c00563), trains machine-learning models on
+fragment-based DFT to predict NMR chemical shifts in nucleic acids.
 
 Other current directions include machine learning within quantum chemistry, computational
 catalysis and QM/QM embedding for metal-oxide systems, quantum structure-based drug

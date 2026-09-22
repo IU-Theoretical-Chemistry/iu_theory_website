@@ -34,25 +34,30 @@ those processes and to design chemical systems that resist them.
 The group identifies and characterizes chemical systems capable of quantum information
 processing — solid-state qubits in insulators and semiconductors, with applications in
 quantum sensing and communication, and molecular systems where chemical design can be used
-to engineer quantum devices directly. Recent work has identified a **non-adiabatic spin
-relaxation mechanism** in molecular qubits, addressing why spin coherence decays in
-practice.
+to engineer quantum devices directly. Recent work has identified a
+[**non-adiabatic spin relaxation mechanism**](https://doi.org/10.1063/5.0198519) in
+molecular qubits, addressing why spin coherence decays in practice.
 
 ## Method development
 
 Underpinning this is a program in quantum dynamics at finite temperature and in contact
 with an environment — the regime real devices operate in, and one most electronic structure
-methods are not built for. The **real-time density-matrix coupled-cluster** method extends
-coupled-cluster theory to closed and open systems at finite temperature, and forms the
-foundation of the group's NSF CAREER project on non-equilibrium dynamics of molecular qubit
-ensembles.
+methods are not built for. The
+[**real-time density-matrix coupled-cluster**](https://doi.org/10.1063/1.5121749) method
+extends coupled-cluster theory to closed and open systems at finite temperature, and
+forms the foundation of the group's NSF CAREER project on non-equilibrium dynamics of
+molecular qubit ensembles.
 
-Earlier method work includes **ring polymer molecular dynamics with surface hopping**,
-which incorporates nuclear quantum effects into non-adiabatic dynamics; a path-integral
-isomorphic Hamiltonian for the same purpose; orthogonality-constrained DFT for excited
-states; and a connection between semiclassical instanton theory and Marcus theory of
-electron transfer. He is also a co-author of the **GFN-xTB** tight-binding method, now
-widely used for fast semi-empirical calculations across the periodic table.
+Earlier method work includes
+[**ring polymer molecular dynamics with surface hopping**](https://doi.org/10.1063/1.4766449),
+which incorporates nuclear quantum effects into non-adiabatic dynamics; a
+[path-integral isomorphic Hamiltonian](https://doi.org/10.1063/1.5005544) for the same
+purpose; [orthogonality-constrained DFT](https://doi.org/10.1021/jp401323d) for excited
+states; and a
+[connection between semiclassical instanton theory and Marcus theory](https://doi.org/10.1063/1.4807706)
+of electron transfer. He is also a co-author of the
+[**GFN-xTB**](https://doi.org/10.1021/acs.jctc.7b00118) tight-binding method, now widely
+used for fast semi-empirical calculations across the periodic table.
 
 These approaches extend beyond quantum information to energy conversion and catalysis in
 condensed phases and at interfaces.
