@@ -268,10 +268,10 @@ which builds with `withastro/action@v6` and publishes via `actions/deploy-pages@
 ### Changing the URL
 
 `astro.config.mjs` is configured for a project site at
-`https://nmayhall.github.io/iu_theory_website`. If the site moves:
+`https://iu-theoretical-chemistry.github.io/iu_theory_website`. If the site moves:
 
 - **Different repo name** — update `base` to match the new name.
-- **User/org site** (`nmayhall.github.io`) — delete `base` entirely.
+- **User/org site** (`iu-theoretical-chemistry.github.io`) — delete `base` entirely.
 - **Custom domain** — set `site` to the domain, delete `base`, and add a `public/CNAME`
   file containing the domain.
 

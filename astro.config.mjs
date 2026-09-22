@@ -4,12 +4,12 @@ import { unified } from '@astrojs/markdown-remark';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
-// Deployed as a GitHub Pages *project* site:
-//   https://nmayhall.github.io/iu_theory_website
+// Deployed as a GitHub Pages *project* site under the IU-Theoretical-Chemistry org:
+//   https://iu-theoretical-chemistry.github.io/iu_theory_website
 // If this later moves to a custom domain, set `site` to that domain,
 // delete `base`, and add a public/CNAME file.
 export default defineConfig({
-  site: 'https://nmayhall.github.io',
+  site: 'https://iu-theoretical-chemistry.github.io',
   base: '/iu_theory_website',
 
   // LaTeX in markdown: $inline$ and $$display$$. Rendered to HTML at build time by
