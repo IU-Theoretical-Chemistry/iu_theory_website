@@ -11,5 +11,7 @@ order: 6
 ---
 
 Includes quantum wavepacket ab initio molecular dynamics (QWAIMD) for hydrogen transfer in
-enzymes and atmospheric systems, electron transport in molecular wires, and finite-temperature
-quantum dynamics for energy conversion and catalysis at interfaces.
+enzymes and atmospheric systems, ring-polymer and surface-hopping methods that fold nuclear
+quantum effects into non-adiabatic dynamics, vibrational spectroscopy of hydrogen-bonded
+clusters, electron transport in molecular wires, and finite-temperature quantum dynamics
+for open systems in contact with an environment.

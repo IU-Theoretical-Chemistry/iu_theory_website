@@ -12,5 +12,7 @@ order: 4
 ---
 
 Methods range from minimal models through density functional theory to machine learning,
-generally in close collaboration with experimental groups, with applications in
-electronics, magnets for renewable energy, and quantum technology.
+spanning metal–insulator transitions, superconductivity in layered nickelates,
+correlated cluster and kagome materials, and solid-state defects and color centers for
+quantum sensing — generally in close collaboration with experimental groups, with
+applications in microelectronics, magnets for renewable energy, and quantum technology.

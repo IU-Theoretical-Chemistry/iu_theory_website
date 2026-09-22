@@ -14,17 +14,6 @@ order: 1
 ---
 
 Work in this area spans coupled-cluster theory, fragment-based methods that make large
-molecules tractable, and approaches to strong correlation where conventional
-single-reference treatments break down.
-
-Coupled-cluster theory builds the correlated wavefunction from an exponential ansatz
-acting on a reference determinant,
-
-$$
-|\Psi\rangle = e^{\hat{T}} |\Phi_0\rangle,
-\qquad
-\hat{T} = \hat{T}_1 + \hat{T}_2 + \cdots
-$$
-
-where truncating $\hat{T}$ at double excitations and treating triples perturbatively gives
-CCSD(T).
+molecules tractable, approaches to strong correlation where conventional
+single-reference treatments break down, and — for extended materials — slave-particle
+and other beyond-DFT techniques for strongly interacting electrons in solids.
