@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-hidden="true">
+  <!-- Decorative only: a proton shared between donor and acceptor along a hydrogen bond. -->
+  <g stroke="currentColor" stroke-opacity="0.55" stroke-width="1.4">
+    <path d="M78 100 H136" />
+  </g>
+  <g stroke="currentColor" stroke-opacity="0.45" stroke-width="1.4" stroke-dasharray="3 5">
+    <path d="M168 100 H236" />
+  </g>
+  <g fill="currentColor">
+    <circle cx="64" cy="100" r="9" fill-opacity="0.85" />
+    <circle cx="152" cy="100" r="5" fill-opacity="0.9" />
+    <circle cx="252" cy="100" r="9" fill-opacity="0.55" />
+  </g>
+  <path
+    d="M100 74 C120 46, 184 46, 204 74"
+    fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.2"
+  />
+  <path d="M196 68 L205 75 L194 79" fill="none" stroke="currentColor" stroke-opacity="0.5" stroke-width="1.2" />
+  <path
+    d="M104 132 C120 118, 136 114, 152 114 C168 114, 184 118, 200 132 L200 138 L104 138 Z"
+    fill="currentColor" fill-opacity="0.14"
+  />
+  <g stroke="currentColor" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="2 4">
+    <path d="M64 122 V158 M152 122 V158 M252 122 V158" />
+  </g>
+</svg>

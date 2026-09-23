@@ -8,7 +8,7 @@ faculty:
   - raghavachari
   - georgescu
   - iyengar
-order: 9
+order: 10
 ---
 
 Applications include machine learning within quantum chemistry, fragment-based models

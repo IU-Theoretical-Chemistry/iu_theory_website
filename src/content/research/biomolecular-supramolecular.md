@@ -8,7 +8,7 @@ faculty:
   - raghavachari
   - iyengar
   - shushkov
-order: 8
+order: 9
 ---
 
 Fragment-based and machine-learning predictions of NMR chemical shifts, pKa values, and

@@ -8,7 +8,7 @@ faculty:
   - raghavachari
   - shushkov
   - iyengar
-order: 7
+order: 8
 ---
 
 Includes mechanistic studies of electrocatalytic CO₂ reduction and oxygen reduction at
